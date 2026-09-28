@@ -18,9 +18,9 @@
         }
     },
 
-    "postCreateCommand": ".devcontainer/setup.sh",
+    "postCreateCommand": "bash .devcontainer/setup.sh",
 
-    "postStartCommand": ".devcontainer/start.sh",
+    "postStartCommand": "bash .devcontainer/start.sh",
 
     "customizations": {
         "vscode": {
