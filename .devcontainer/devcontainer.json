@@ -7,10 +7,6 @@
 
     "workspaceFolder": "/workspaces/projet-exam",
 
-    "forwardPorts": [
-        8000
-    ],
-
     "portsAttributes": {
         "8000": {
             "label": "Laravel",
@@ -23,6 +19,9 @@
 
     "customizations": {
         "vscode": {
+            "settings": {
+                "remote.autoForwardPorts": true
+            },
             "extensions": [
                 "bmewburn.vscode-intelephense-client"
             ]
