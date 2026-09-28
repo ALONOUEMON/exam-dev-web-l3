@@ -1,0 +1,32 @@
+{
+    "name": "Examen Laravel L3",
+
+    "dockerComposeFile": "docker-compose.yml",
+
+    "service": "app",
+
+    "workspaceFolder": "/workspaces/projet-exam",
+
+    "forwardPorts": [
+        8000
+    ],
+
+    "portsAttributes": {
+        "8000": {
+            "label": "Laravel",
+            "onAutoForward": "openBrowser"
+        }
+    },
+
+    "postCreateCommand": ".devcontainer/setup.sh",
+
+    "postStartCommand": ".devcontainer/start.sh",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bmewburn.vscode-intelephense-client"
+            ]
+        }
+    }
+}
